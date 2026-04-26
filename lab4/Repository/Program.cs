@@ -3,7 +3,7 @@ using Repository.Entities;
 using Repository.Repositories;
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
-
+// test comment for push
 using var ctx = new BookshopContext();
 ctx.Database.EnsureCreated();
 
